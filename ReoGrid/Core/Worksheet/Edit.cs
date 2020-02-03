@@ -398,10 +398,10 @@ namespace unvell.ReoGrid
 
 			endEditProcessing = true;
 
-			if (data == null)
-			{
+			//if (data == null) //see https://reogrid.net/forum/viewtopic.php?id=450
+			//{
 				data = this.controlAdapter.GetEditControlText();
-			}
+			//}
 
 			if (AfterCellEdit != null)
 			{
