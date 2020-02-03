@@ -955,7 +955,7 @@ namespace unvell.ReoGrid
 
 			if (this.worksheet.currentEditingCell == this)
 			{
-				this.worksheet.EndEdit(this);
+				this.worksheet.EndEdit(this.Data); //see https://reogrid.net/forum/viewtopic.php?id=450
 			}
 		}
 
